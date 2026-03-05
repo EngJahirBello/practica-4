@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Nuestro Team</title>
+    <link rel="stylesheet" href="css/contactanos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Reparación de contraste para el botón de inicio */
+        .nav-inicio {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            padding-bottom: 50px;
+        }
+
+        .btn-inicio-fix {
+            text-decoration: none;
+            color: #f8fafc; /* Texto claro */
+            background: #0f172a; /* Fondo oscuro para resaltar sobre el cyan */
+            padding: 12px 30px;
+            border: 2px solid #38bdf8; /* Borde azul eléctrico */
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-inicio-fix:hover {
+            background: #38bdf8;
+            color: #020617;
+            transform: scale(1.05);
+        }
+
+        /* Asegurar que las fotos de los miembros no se deformen */
+        .member img {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="team">
+        <h2>Nuestro Equipo</h2>
+        <div class="team-container">
+            <div class="member">
+                <img src="img/foto.jpg" alt="juan">
+                <h3>juan</h3>
+                <p>Ingeniero en sistemas</p>
+                <p>Juanchito@gmail.com</p>
+                <p>272 180 1898</p>
+            </div>
+
+            <div class="member">
+                <img src="img/Jahir_foto_cv.png" alt="jahir">
+                <h3>jahir</h3>
+                <p>Tecnico en programación</p>
+                <p>jahirdiazbello@hotmail.com</p>
+                <p>2721437747</p>
+            </div>
+
+            <div class="member">
+                <img src="img/fotoJosue.jpeg" alt="Josue">
+                <h3>Josue</h3>
+                <p>Back-end Developer</p>
+                <p>js7007891@gmail.com</p>
+                <p>2712171211</p>
+            </div>
+            
+            <div class="member">
+                <img src="img/foto_ivette.jpg" alt="ivette">
+                <h3>ivette</h3>
+                <p>Project Manager</p>
+                <p>ivette@empresa.com</p>
+                <p>+52 159 753 8520</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2> Galería del Proyecto</h2>
+        <div class="gallery-container">
+            <img src="img/trabajo de equipo1.jpeg" alt="Proceso 1">
+            <img src="img/trabajo de equipo2.jpeg" alt="Proceso 2">
+            <img src="img/trabajo de equipo3.jpeg" alt="Proceso 3">
+            <img src="img/trabajo de equipo4.jpeg" alt="Proceso 4">
+            
+            <img src="img/equipo trabajo 1.jpg" alt="Equipo 1">
+            <img src="img/equipo trabajo 2.jpg" alt="Equipo 2">
+            <img src="img/equipo trabajo 3.jpg" alt="Equipo 3">
+        </div>
+    </section>
+
+    <div class="nav-inicio">
+        <a href="index.html" class="btn-inicio-fix">
+            <i class="fas fa-home"></i> Volver al Inicio
+        </a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de - Nuestro Equipo</title>
+    <link rel="stylesheet" href="css/acercade.css">
+    <style>
+        /* Esto corrige que la imagen se vea gigante */
+        .team-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .team-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .team-card:hover {
+            transform: translateY(-5px);
+        }
+        .team-card img {
+            width: 100%; /* Limita el ancho al contenedor */
+            height: 250px; /* Altura fija para que todas se vean iguales */
+            object-fit: cover; /* Recorta la imagen para que no se estire */
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-acerca">
+        <h1 align="center">Conoce a Nuestro Equipo</h1>
+        <p align="center">Trabajamos juntos para lograr el éxito</p>
+    </header>
+
+    <main>
+        <section class="equipo-desarrollo">
+            <h2 align="center">Equipo de Desarrollo</h2>
+            <div class="team-grid">
+
+                <div class="team-card">
+                    <img src="img/foto.jpg" alt="Juan">
+                    <h3>Juan</h3>
+                    <p>Desarrollador Frontend</p>
+                </div>
+
+                <div class="team-card">
+                    <img src="img/Jahir_foto_cv.png" alt="jahir">
+                    <h3>Jahir</h3>
+                    <p>Programador Back-End</p>
+                </div>
+
+                <div class="team-card">
+                    <img src="img/fotoJosue.jpeg" alt="Josue">
+                    <h3>Josue Silva</h3>
+                    <p>Ciberseguridad</p>
+                </div>
+
+                <div class="team-card">
+                    <img src="img/foto_ivette.jpg" alt="ivette">
+                    <h3>Ivette</h3>
+                    <p>Especialista en Redes</p>
+                </div>
+
+            </div>
+        </section>
+
+        <div align="center" style="margin-top: 30px;">
+            <a href="index.html" style="text-decoration: none; background: #3498db; color: white; padding: 10px 20px; border-radius: 5px;">Volver al Inicio</a>
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creadores - Nuestro Team</title>
+    <link rel="stylesheet" href="css/contactanos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* REPARACIÓN: Alto contraste para el botón sobre el fondo claro */
+        .nav-inicio {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            padding-bottom: 60px;
+        }
+
+        .btn-inicio-reparado {
+            text-decoration: none;
+            color: #f8fafc; /* Texto claro */
+            background: #0f172a; /* Fondo azul muy oscuro para máximo contraste */
+            padding: 14px 35px;
+            border: 2px solid #38bdf8; /* Borde azul eléctrico brillante */
+            border-radius: 50px;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .btn-inicio-reparado:hover {
+            background: #38bdf8; /* Se ilumina al pasar el mouse */
+            color: #020617;
+            transform: translateY(-5px);
+            box-shadow: 0 15px 25px rgba(56, 189, 248, 0.4);
+        }
+
+        /* Estilo para que las fotos de la galería se vean uniformes */
+        .gallery-container img {
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <section class="team">
+        <h2>Creadores</h2>
+        <div class="team-container">
+            <div class="member">
+                <img src="img/foto.jpg" alt="Juan">
+                <h3>Juan</h3>
+            </div>
+
+            <div class="member">
+                <img src="img/Jahir_foto_cv.png" alt="Jahir">
+                <h3>Jahir</h3>
+            </div>
+
+            <div class="member">
+                <img src="img/fotoJosue.jpeg" alt="Josue">
+                <h3>Josue</h3>
+            </div>
+
+            <div class="member">
+                <img src="img/foto_ivette.jpg" alt="Ivette">
+                <h3>Ivette</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Galería del Proyecto</h2>
+        <div class="gallery-container">
+            <img src="img/trabajo de equipo1.jpeg" alt="Proceso 1">
+            <img src="img/trabajo de equipo2.jpeg" alt="Proceso 2">
+            <img src="img/trabajo de equipo3.jpeg" alt="Proceso 3">
+            <img src="img/trabajo de equipo4.jpeg" alt="Proceso 4">
+            
+            <img src="img/equipo trabajo 1.jpg" alt="Equipo 1">
+            <img src="img/equipo trabajo 2.jpg" alt="Equipo 2">
+            <img src="img/equipo trabajo 3.jpg" alt="Equipo 3">
+        </div>
+    </section>
+
+    <div class="nav-inicio">
+        <a href="index.html" class="btn-inicio-reparado">
+            <i class="fas fa-home"></i> Volver al Inicio
+        </a>
+    </div>
+
+</body>
+</html>
