@@ -1,0 +1,143 @@
+/* css de index */
+
+/* ---- Estilos Generales ---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+body {
+    background-color: #1a1a2e; /* Azul oscuro relajado */
+    color: #e0e0e0; 
+    text-align: center;
+}
+
+
+header {
+    background: linear-gradient(135deg, #232b5e, #181d3b);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+header .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #a3bffa; 
+}
+
+/* ---- Contenedor de Blogs ---- */
+.blogs-container {
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #a3bffa; 
+}
+
+
+.blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.blog-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    backdrop-filter: blur(10px);
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(163, 191, 250, 0.5);
+}
+
+
+.blog-card img {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px;
+}
+
+
+.blog-card h3 {
+    margin: 10px 0;
+    color: #a3bffa;
+}
+
+.blog-card p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #7d83ff; /* Azul suave */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 0px 10px rgba(125, 131, 255, 0.5);
+}
+
+.btn:hover {
+    background: #5a60ff;
+    box-shadow: 0px 0px 15px rgba(90, 96, 255, 0.8);
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background: #181d3b;
+    color: white;
+}
+
+.redes-sociales a {
+    color: #a3bffa;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: transform 0.3s, text-shadow 0.3s;
+}
+
+.redes-sociales a:hover {
+    transform: scale(1.2);
+    text-shadow: 0px 0px 10px #a3bffa;
+}

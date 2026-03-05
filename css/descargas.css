@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.descargas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.archivo {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 25px 20px;
+    transition: transform 0.3s ease;
+}
+
+.archivo:hover {
+    transform: translateY(-5px);
+}
+
+.archivo h2 {
+    color: #4e54c8;
+    margin-bottom: 15px;
+}
+
+.archivo p {
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.archivo a {
+    text-decoration: none;
+    background: #4e54c8;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.archivo a:hover {
+    background: #343aeb;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.boton-regreso {
+    text-decoration: none;
+    background: #8f94fb;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.boton-regreso:hover {
+    background: #4e54c8;
+}

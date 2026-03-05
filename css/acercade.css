@@ -1,0 +1,124 @@
+/* Reset sencillo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+header {
+    background-color: #1e3c72;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+section.equipo, section.valores {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section.equipo h2,
+section.valores h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1e3c72;
+}
+
+.integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.miembro {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 200px; /* Más pequeña la tarjeta */
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.miembro:hover {
+    transform: translateY(-5px);
+}
+
+.miembro img {
+    width: 150px;  /* Imagen más pequeña */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;  /* Hace la imagen circular */
+    margin-top: 15px;
+}
+
+.miembro h3 {
+    margin: 15px 0 5px 0;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.miembro p {
+    padding: 0 10px 10px 10px;
+    font-size: 0.85rem;
+}
+
+.valores ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.valores ul li {
+    background-color: #1e3c72;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.valores ul li:hover {
+    background-color: #16315e;
+}
+
+footer {
+    background-color: #1e3c72;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+div a {
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+div a:hover {
+    background-color: #2980b9;
+}
